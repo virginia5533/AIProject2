@@ -1,0 +1,241 @@
+Wikipedia began with its first edit on 15 January 2001, two days after the domain was registered[2] by Jimmy Wales and Larry Sanger. Its technological and conceptual underpinnings predate this; the earliest known proposal for an online encyclopedia was made by Rick Gates in 1993,[3] and the concept of a free-as-in-freedom online encyclopedia (as distinct from mere open source)[4] was proposed by Richard Stallman in 1998.[5]
+
+Crucially, Stallman's concept specifically included the idea that no central organization should control editing. This characteristic greatly contrasted with contemporary digital encyclopedias such as Microsoft Encarta, Encyclopædia Britannica, and even Bomis's Nupedia, which was Wikipedia's direct predecessor. In 2001, the license for Nupedia was changed to GFDL, and Wales and Sanger launched Wikipedia using the concept and technology of a wiki pioneered in 1995 by Ward Cunningham.[6] Initially, Wikipedia was intended to complement Nupedia, an online encyclopedia project edited solely by experts, by providing additional draft articles and ideas for it. In practice, Wikipedia quickly overtook Nupedia, becoming a global project in multiple languages and inspiring a wide range of other online reference projects.
+
+Wikipedia's worldwide monthly readership in 2014 was approximately 495 million.[7] Worldwide in September 2018, WMF Labs tallied 15.5 billion page views for the month.[8] According to comScore, Wikipedia receives over 117 million monthly unique visitors from the United States alone.[9]
+
+Historical overview
+Background
+The concept of compiling the world's knowledge in a single location dates back to the ancient Library of Alexandria and Library of Pergamum, but the modern concept of a general-purpose, widely distributed, printed encyclopedia originated with Denis Diderot and the 18th-century French encyclopedists.[10] The idea of using automated machinery beyond the printing press to build a more useful encyclopedia can be traced to Paul Otlet's 1934 book Traité de Documentation; Otlet also founded the Mundaneum, an institution dedicated to indexing the world's knowledge, in 1910. This concept of a machine-assisted encyclopedia was further expanded in H. G. Wells' book of essays World Brain (1938) and Vannevar Bush's future vision of the microfilm-based Memex in his essay "As We May Think" (1945).[11] Another milestone was Ted Nelson's hypertext design Project Xanadu, which was begun in 1960.[11]
+
+The use of volunteers was integral and instrumental in creating and maintaining Wikipedia. However, even without the internet, huge complex projects of similar nature had made use of volunteers. Specifically, the creation of the Oxford English Dictionary was conceived with the speech at the London Library, on Guy Fawkes Day, 5 November 1857 by Richard Chenevix Trench. It took about 70 years to complete. Dr. Trench envisioned a grand new dictionary of every word in the English language, and to be used democratically and freely. According to author Simon Winchester, "The undertaking of the scheme, he said, was beyond the ability of any one man. To peruse all of English literature—and to comb the London and New York newspapers and the most literate of the magazines and journals—must be instead 'the combined action of many.' It would be necessary to recruit a team—moreover, a huge one—probably comprising hundreds and hundreds of unpaid amateurs, all of them working as volunteers."[12]
+
+Advances in information technology in the late 20th century led to changes in the form of encyclopedias. While previous encyclopedias, notably the Encyclopædia Britannica, were often book-based, Microsoft's Encarta, published in 1993, was available on CD-ROM and hyperlinked. The development of the World Wide Web led to many attempts to develop internet encyclopedia projects. An early proposal for an online encyclopedia was Interpedia in 1993 by Rick Gates;[3] this project died before generating any encyclopedic content. Free software proponent Richard Stallman described the usefulness of a "Free Universal Encyclopedia and Learning Resource" in 1998.[5] His published document outlined how to "ensure that progress continues towards this best and most natural outcome." On Wednesday 17 January 2001, two days after the founding of Wikipedia, the Free Software Foundation's (FSF) GNUPedia project went online, competing with Nupedia,[13] but today the FSF encourages people "to visit and contribute to [Wikipedia]".[14]
+
+Wikipedia co-founder Jimmy Wales has stated that the germ of the concept for Wikipedia, for him, came back when he was a graduate student at Indiana University where he was impressed with the successes of the open-source movement and found Richard Stallman's Emacs Manifesto promoting free software and a sharing economy to be quite interesting. At the time, Wales was studying finance and was intrigued by the incentives of the many people who contributed as volunteers toward creating free software where there were many examples having excellent results.[15]
+
+According to The Economist, Wikipedia "has its roots in the techno-optimism that characterised the internet at the end of the 20th century. It held that ordinary people could use their computers as tools for liberation, education, and enlightenment."[16]
+
+Formulation of the concept
+Wikipedia was initially conceived as a feeder project for the Wales-founded Nupedia, an earlier project to produce a free online encyclopedia, volunteered by Bomis, a web-advertising firm owned by Jimmy Wales, Tim Shell and Michael E. Davis.[17][18][19] Nupedia was founded upon the use of highly qualified volunteer contributors and an elaborate multi-step peer review process.[20] Despite its mailing list of interested editors, and the presence of a full-time editor-in-chief, Larry Sanger, a graduate philosophy student hired by Wales,[21] the writing of content for Nupedia was extremely slow, with only 12 articles written during the first year.[19]
+
+Wales and Sanger discussed various ways to create content more rapidly.[18] The idea of a wiki-based complement originated from a conversation between Sanger and Ben Kovitz.[22][23][24] Ben Kovitz was a computer programmer and regular on Ward Cunningham's revolutionary wiki "the WikiWikiWeb". He explained to Sanger what wikis were, at that time a difficult concept to understand, over a dinner on Tuesday 2 January 2001.[22][23][24][25] Wales first stated, in October 2001, that "Larry had the idea to use Wiki software",[26] though he later stated in December 2005 that Jeremy Rosenfeld, a Bomis employee, introduced him to the concept.[27][28][citation needed][citation needed] Sanger thought a wiki would be a good platform to use, and proposed on the Nupedia mailing list that a wiki based upon UseModWiki (then v. 0.90) be set up as a "feeder" project for Nupedia. Under the subject "Let's make a wiki", he wrote:[29]
+
+No, this is not an indecent proposal. It's an idea to add a little feature to Nupedia. Jimmy Wales thinks that many people might find the idea objectionable, but I think not... As to Nupedia's use of a wiki, this is the ULTIMATE "open" and simple format for developing content. We have occasionally bandied about ideas for simpler, more open projects to either replace or supplement Nupedia. It seems to me wikis can be implemented practically instantly, need very little maintenance, and in general, are very low-risk. They're also a potentially great source of content. So there's little downside, as far as I can determine.
+
+Wales set one up and put it online on Wednesday 10 January 2001.[30]
+
+Founding of Wikipedia
+See also: First Wikipedia edit, Wikipedia:Wikipedia's oldest articles, and Wikipedia:First 100 pages
+There was considerable resistance on the part of Nupedia's editors and reviewers to the idea of associating Nupedia with a wiki-style website.[19] In his message to Nupedia mailing list sent on 11 January 2001, Sanger suggested giving the new project its own name, Wikipedia,[31] and Wikipedia was soon launched on its own domain, wikipedia.com, on Monday 15 January 2001. The bandwidth and server (located in San Diego) used for these initial projects were donated by Bomis. Many former Bomis employees later contributed content to the encyclopedia: notably Tim Shell, co-founder and later CEO of Bomis, and programmer Jason Richey.
+
+Wales stated in December 2008 that he made Wikipedia's first edit, a test edit with the text "Hello, World!", but this edit may have been to an old version of Wikipedia which soon after was scrapped and replaced by a restart.[citation needed][32] The existence of the project was formally announced and an appeal for volunteers to engage in content creation was made to the Nupedia mailing list on 17 January 2001.[33]
+
+The project received many new participants after being mentioned on the Slashdot website in July 2001,[34] having already earned two minor mentions in March 2001.[35][36] It then received a prominent pointer to a story on the community-edited technology and culture website Kuro5hin on 25 July.[37] Between these relatively rapid influxes of traffic, there had been a steady stream of traffic from other sources, especially Google, which alone sent hundreds of new visitors to the site every day. Its first major mainstream media coverage was in The New York Times on 20 September 2001.[38]
+
+The project gained its 1,000th article around Monday 12 February 2001 and reached 10,000 articles around 7 September. In the first year of its existence, over 20,000 encyclopedia entries were created – a rate of over 1,500 articles per month. On Friday 30 August 2002, the article count reached 40,000.
+
+Wikipedia's earliest edits were long believed lost, since the original UseModWiki software deleted old data after about a month. On Tuesday 14 December 2010, developer Tim Starling found backups on SourceForge containing every change made to Wikipedia from its creation in January 2001 to 17 August 2001.[39] It showed the first edit as being to HomePage on 15 January 2001, reading "This is the new WikiPedia!". That edit was imported in 2019 and can be found here.
+
+The first three edits that were known of before Tim Starling's discovery, are:
+
+To page Wikipedia:UuU at 20:08, 16 January 2001
+To page TransporT at 20:12, 16 January 2001
+To page User:ScottMoonen at 21:16, 16 January 2001
+Divisions and internationalization
+Early in Wikipedia's development, it began to expand internationally, with the creation of new namespaces, each with a distinct set of usernames. The first subdomain created for a non-English Wikipedia was deutsche.wikipedia.com (created on Friday 16 March 2001, 01:38 UTC),[40] followed after a few hours by catalan.wikipedia.com (at 13:07 UTC).[41] The Japanese Wikipedia, started as nihongo.wikipedia.com, was created around that period,[42][43] and initially used only Romanized Japanese. For about two months Catalan was the one with the most articles in a non-English language,[44][citation needed] although statistics of that early period are imprecise.[citation needed] The French Wikipedia was created on or around 11 May 2001,[citation needed] in a wave of new language versions that also included Chinese, Dutch, Esperanto, Hebrew, Italian, Portuguese, Russian, Spanish, and Swedish.[45] These languages were soon joined by Arabic[46] and Hungarian.[citation needed][47] In September 2001, an announcement pledged commitment to the multilingual provision of Wikipedia,[48] notifying users of an upcoming roll-out of Wikipedias for all major languages, the establishment of core standards, and a push for the translation of core pages for the new wikis. At the end of that year, when international statistics first began to be logged, Afrikaans, Norwegian, and Serbian versions were announced.[49]
+
+In January 2002, 90% of all Wikipedia articles were in English. By January 2004, fewer than 50% were English, and this internationalization has continued to increase as the encyclopedia grows. As of 2014, about 85.5% of all Wikipedia articles are contained within non-English Wikipedia versions.[50]
+
+Development of Wikipedia
+
+Screenshot of Wikipedia's main page on 28 September 2002
+In March 2002, following the withdrawal of funding by Bomis during the dot-com bust, Larry Sanger left both Nupedia and Wikipedia.[51] By 2002, Sanger and Wales differed in their views on how best to manage open encyclopedias. Both still supported the open-collaboration concept, but the two disagreed on how to handle disruptive editors, specific roles for experts, and the best way to guide the project to success.
+
+Wales went on to establish self-governance and bottom-up self-direction by editors on Wikipedia. He made it clear that he would not be involved in the community's day-to-day management, but would encourage it to learn to self-manage and find its own best approaches. As of 2007, Wales mostly restricts his own role to occasional input on serious matters, executive activity, advocacy of knowledge, and encouragement of similar reference projects.
+
+Sanger says he is an "inclusionist" and is open to almost anything.[52] He proposed that experts still have a place in the Web 2.0 world. He returned briefly to academia, then joined the Digital Universe Foundation. In 2006, Sanger founded Citizendium, an open encyclopedia that used real names for contributors in an effort to reduce disruptive editing, and hoped to facilitate "gentle expert guidance" to increase the accuracy of its content. Decisions about article content were to be up to the community, but the site was to include a statement about "family-friendly content".[53] He stated early on that he intended to leave Citizendium in a few years, by which time the project and its management would presumably be established.[54]
+
+Past content of Wikipedia
+Old, even obsolete, encyclopedia articles are highly valuable for historical research.[55] For each Wikipedia article, past versions are accessible through the "View history" link at the top of the page. In addition, ZIM File Archive,[56] at Internet Archive, contains past snapshots of full Wikipedia, as well as articles selections, in multiple languages, from different years. They can be opened with Kiwix software.
+
+Between 2007 and 2011, three CD/DVD versions (called Wikipedia Version 0.5, 0.7 and 0.8) containing a selection of articles from English Wikipedia were released. They are now available as Kiwix ZIM files, both from ZIM File Archive,[56] and from Kiwix download site.[57]
+
+Evolution of logo
+This is the very first logo
+Founding – late 2001 (tentative)
+
+ 
+This is the second "improved" logo
+Late 2001 – 12 October 2003
+
+ 
+This is the next logo.
+13 October 2003 – 13 May 2010
+
+ 
+This is the present logo
+13 May 2010–present
+
+Timeline
+Articles summarizing each year are held within the Wikipedia project namespace and are linked to below. Additional resources for research are available within the Wikipedia records and archives, and are listed at the end of this article.
+First decade: 2000–2009
+2000
+The Bomis staff, summer 2000
+Bomis staff in mid-2000.
+In March 2000, the Nupedia project was started. Its intention was to publish articles written by experts which would be licensed as free content. Nupedia was founded by Jimmy Wales, with Larry Sanger as editor-in-chief, and funded by the web-advertising company Bomis.[58]
+
+2001
+In January 2001, Wikipedia began as a side-project of Nupedia, to allow collaboration on articles prior to entering the peer-review process.[59] The name was suggested by Sanger on 11 January 2001 as a portmanteau of the words wiki (Hawaiian for "quick") and encyclopedia.[60] The wikipedia.com and wikipedia.org domain names were registered on 12[61] and 13 January,[62] respectively, with wikipedia.org being brought online on the same day.[63] The project formally opened on 15 January ("Wikipedia Day"), with the first international Wikipedias – the French, German, Catalan, Swedish, and Italian editions – being created between March and May. The "neutral point of view" (NPOV) policy was officially formulated at this time, and Wikipedia's first slashdotter wave arrived on 26 July.[34] The first media report about Wikipedia appeared in August 2001 in the newspaper Wales on Sunday.[64]
+
+The September 11 attacks spurred the appearance of breaking news stories on the homepage, as well as information boxes linking related articles.[65] At the time, approximately 100 articles related to 9/11 had been created.[66] After the 11 September attacks, a link to the Wikipedia article on the attacks appeared on Yahoo!'s home page, resulting in a spike in traffic.[67]
+
+2002
+2002 saw the end of funding for Wikipedia from Bomis and the departure of Larry Sanger. The forking of the Spanish Wikipedia also took place with the establishment of the Enciclopedia Libre. The first portable MediaWiki software went live on 25 January. Bots was introduced, Jimmy Wales confirmed that Wikipedia would never run commercial advertising, and the first sister project (Wiktionary) and first formal Manual of Style were launched. A separate board of directors to supervise the project was proposed and initially discussed at Meta-Wikipedia.[citation needed] Close to 200 contributors were editing Wikipedia daily.[68]
+
+2003
+The English Wikipedia passed 100,000 articles in 2003, while the next largest edition, the German Wikipedia, passed 10,000. The Wikimedia Foundation was established, and Wikipedia adopted its jigsaw world logo. Mathematical formulae using TeX were reintroduced to the website. The first Wikipedian social meeting took place in Munich, Germany, in October. The basic principles of Wikipedia's Arbitration system and committee (known colloquially as "ArbCom") were developed.
+
+Wikisource was created as a separate project on 24 November 2003, to host free textual sources.
+
+2004
+The worldwide Wikipedia article pool continued to grow rapidly in 2004, doubling in size in 12 months, from under 500,000 articles in late 2003 to over 1 million in over 100 languages by the end of 2004. The English Wikipedia accounted for just under half of these articles. The website's server farms were moved from California to Florida, Categories and CSS style configuration sheets were introduced, and the first attempt to block Wikipedia occurred, with the website being blocked in China for two weeks in June. The formal election of a board and Arbitration Committee began. The first formal projects were proposed to deliberately balance content and seek out systemic bias arising from Wikipedia's community structure.[citation needed]
+
+Bourgeois v. Peters,[69] (11th Cir. 2004), a court case decided by the United States Court of Appeals for the Eleventh Circuit was one of the earliest court opinions to cite and quote Wikipedia.[70] It stated: "We also reject the notion that the Department of Homeland Security's threat advisory level somehow justifies these searches. Although the threat level was 'elevated' at the time of the protest, 'to date, the threat level has stood at yellow (elevated) for the majority of its time in existence. It has been raised to orange (high) six times.'"[69]
+
+Wikimedia Commons was created on 7 September 2004 to host media files for Wikipedia in all languages.
+
+2005
+In 2005, Wikipedia became the most popular reference website on the Internet, according to Hitwise, with English Wikipedia alone exceeding 750,000 articles. Wikipedia's first multilingual and subject portals were established in 2005. A formal fundraiser held in the first quarter of the year raised almost US$100,000 for system upgrades to handle growing demand. China again blocked Wikipedia in October 2005.
+
+The first major Wikipedia scandal, the Seigenthaler incident, occurred in 2005 when a well-known figure was found to have a vandalized biography that had gone unnoticed for months. In the wake of this and other concerns,[citation needed] the first policy and system changes specifically designed to counter this form of abuse were established. These included a new Checkuser privilege policy update to assist in sock puppetry investigations, a new feature called semi-protection, a more strict policy on biographies of living people and the tagging of such articles for stricter review. A restriction of new article creation to registered users only was put in place in December 2005, after the Seigenthaler incident where an anonymous user posted a hoax.[71]
+
+34:29
+Wikimania – the Wikimentary, documentary about Wikimania 2005, featuring Jimmy Wales and Ward Cunningham
+Wikimania 2005, the first Wikimania conference, was held from 4 to 8 August 2005 at the Haus der Jugend in Frankfurt, Germany, attracting about 380 attendees.
+
+2006
+The English Wikipedia gained its one-millionth article, Jordanhill railway station, on 1 March 2006. The first approved Wikipedia article selection was made freely available to download, and "Wikipedia" became registered as a trademark of the Wikimedia Foundation. The congressional aides biography scandals – multiple incidents in which congressional staffers and a campaign manager were caught trying to covertly alter Wikipedia biographies – came to public attention, leading to the resignation of the campaign manager. Nonetheless, Wikipedia was rated as one of the top five global brands of 2006.[72]
+
+Jimmy Wales indicated at Wikimania 2006 that Wikipedia had achieved sufficient volume and called for an emphasis on quality, perhaps best expressed in the call for 100,000 feature-quality articles. A new privilege, "oversight", was created, allowing specific versions of archived pages with unacceptable content to be marked as non-viewable. Semi-protection against anonymous vandalism, introduced in 2005, proved more popular than expected, with over 1,000 pages being semi-protected at any given time in 2006.
+
+2007
+Wikipedia continued to grow rapidly in 2007, possessing over 5 million registered editor accounts by 13 August.[73] The 250 language editions of Wikipedia contained a combined total of 7.5 million articles, totalling 1.74 billion words, by 13 August.[74] The English Wikipedia gained articles at a steady rate of 1,700 a day,[75] with the wikipedia.org domain name ranked the 10th-busiest in the world. Wikipedia continued to garner visibility in the press – the Essjay controversy broke out when a prominent member of Wikipedia was found to have lied about his credentials. Citizendium, a competing online encyclopedia, launched publicly. A new trend developed in Wikipedia, with the encyclopedia addressing people whose notability stemmed from being a participant in a news story by adding a redirect from their name to the larger story, rather than creating a distinct biographical article.[76] On 9 September 2007, the English Wikipedia gained its two-millionth article, El Hormiguero.[77] There was some controversy in late 2007 when the Volapük Wikipedia jumped from 797 to over 112,000 articles, briefly becoming the 15th-largest Wikipedia edition, due to automated stub generation by an enthusiast for the Volapük constructed language.[78][79]
+
+According to the MIT Technology Review, the number of regularly active editors on the English-language Wikipedia peaked in 2007 at more than 51,000, and has since been declining.[80]
+
+In April 2007, Wikipedia Version 0.5 article selection release was published.[citation needed]
+
+2008
+Various WikiProjects in many areas continued to expand and refine article contents within their scope. In April 2008, the 10-millionth Wikipedia article was created, and by the end of the year the English Wikipedia exceeded 2.5 million articles.
+
+2009
+On 25 June 2009 at 3:15 pm PDT (22:15 UTC), following the death of pop icon Michael Jackson, the website temporarily crashed.
+
+The Wikimedia Foundation reported nearly a million visitors to Jackson's biography within one hour, probably the most visitors in a one-hour period to any article in Wikipedia's history. By late August 2009, the number of articles in all Wikipedia editions had exceeded 14 million.[81] The three-millionth article on the English Wikipedia, Beate Eriksen, was created on 17 August 2009 at 04:05 UTC.[citation needed] On 27 December 2009, the German Wikipedia exceeded one million articles, becoming the second edition after the English Wikipedia to do so. A TIME article listed Wikipedia among 2009's best websites.[82]
+
+Wikipedia content became licensed under a Creative Commons Attribution-ShareAlike license in 2009.[83]
+
+Second decade: 2010–2019
+2010
+On 24 March, the European Wikipedia servers went offline due to an overheating problem. Failover to servers in Florida turned out to be broken, causing DNS resolution for Wikipedia to fail across the world. The problem was resolved quickly, but due to DNS caching effects, some areas were slower to regain access to Wikipedia than others.[84][85]
+
+On 13 May, the site released a new interface. New features included an updated logo, new navigation tools, and a link wizard.[citation needed] However, the classic interface remained available for those who wished to use it. On 12 December, the English Wikipedia passed the 3.5-million-article mark, while the French Wikipedia's millionth article was created on 21 September. The 1-billionth Wikimedia project edit was performed on 16 April.[86]
+
+In early 2010, Wikipedia Version 0.7 article selection release was published.[87]
+
+2011
+
+One of several cakes made to celebrate Wikipedia's 10th anniversary[88] in 2011.
+Wikipedia and its users held many celebrations worldwide to commemorate the site's 10th anniversary on 15 January.[89] The site began efforts to expand its growth in India, holding its first Indian conference in Mumbai in November 2011.[90][91] The English Wikipedia passed the 3.6-million-article mark on 2 April, and reached 3.8 million articles on 18 November. On 7 November 2011, the German Wikipedia exceeded 100 million page edits, becoming the second language edition to do so after the English edition, which attained 500 million page edits on 24 November 2011. The Dutch Wikipedia exceeded 1 million articles on 17 December 2011, becoming the fourth Wikipedia edition to do so.
+
+On 3 March 2011, Wikipedia Version 0.8 article selection release was published.[citation needed]
+
+The "Wikimania 2011 – Haifa, Israel" stamp was issued by Israel Post on 2 August 2011. This was the first-ever stamp dedicated to a Wikimedia-related project.
+
+Between 4 and 6 October 2011, the Italian Wikipedia became intentionally inaccessible in protest against the Italian Parliament's proposed DDL intercettazioni law, which, if approved, would allow any person to force websites to remove information that is perceived as untrue or offensive, without the need to provide evidence.[92]
+
+Also in October 2011, Wikimedia announced the launch of Wikipedia Zero, an initiative to enable free mobile access to Wikipedia in developing countries through partnerships with mobile operators.[93][94]
+
+2012
+The staff at the Wikimedia Foundation the moment the SOPA blackout happened
+On 16 January, Wikipedia co-founder Jimmy Wales announced that the English Wikipedia would shut down for 24 hours on 18 January as part of a protest meant to call public attention to the proposed Stop Online Piracy Act and PROTECT IP Act, two anti-piracy laws under debate in the United States Congress. Calling the blackout a "community decision", Wales and other opponents of the laws believed that they would endanger free speech and online innovation.[95] A similar blackout was staged on 10 July by the Russian Wikipedia, in protest against a proposed Russian internet regulation law.[96]
+
+In late March 2012, the Wikimedia Deutschland announced Wikidata, a universal platform for sharing data between all Wikipedia language editions.[97][non-primary source needed] The US$1.7-million Wikidata project was partly funded by Google, the Gordon and Betty Moore Foundation, and the Allen Institute for Artificial Intelligence.[98] Wikimedia Deutschland assumed responsibility for the first phase of Wikidata, and initially planned to make the platform available to editors by December 2012. Wikidata's first phase became fully operational in March 2013.[99][100]
+
+
+Justin Knapp
+In April 2012, Justin Knapp became the first single contributor to make over one million edits to Wikipedia.[101][102] Jimmy Wales congratulated Knapp for his work and presented him with the site's Special Barnstar medal and the Golden Wiki award for his achievement.[103] Wales also declared that 20 April would be "Justin Knapp Day".[104]
+
+On 13 July 2012, the English Wikipedia gained its 4-millionth article, Izbat al-Burj.[105] In October 2012, historian and Wikipedia editor Richard J. Jensen opined that the English Wikipedia was "nearing completion", noting that the number of regularly active editors had fallen significantly since 2007, despite Wikipedia's rapid growth in article count and readership.[106]
+
+According to Alexa Internet, Wikipedia was the world's sixth-most-popular website as of November 2012.[107] Dow Jones ranked Wikipedia fifth worldwide as of December 2012.[108]
+
+2013
+On 22 January 2013, the Italian Wikipedia became the fifth language edition of Wikipedia to exceed 1 million articles, while the Russian and Spanish Wikipedias gained their millionth articles on 11 and 16 May respectively. On 15 July the Swedish and on 24 September the Polish Wikipedias gained their millionth articles, becoming the eighth and ninth Wikipedia editions to do so.
+
+On 27 January, the main belt asteroid 274301 was officially renamed "Wikipedia" by the Committee for Small Body Nomenclature.[109]
+
+The first phase of the Wikidata database, automatically providing interlanguage links and other data, became available for all language editions in March 2013.[100]
+
+In April 2013, the French secret service was accused of attempting to censor Wikipedia by threatening a Wikipedia volunteer with arrest unless "classified information" about a military radio station was deleted.[110]
+
+Presentation about the Wikipedia VisualEditor
+In July, the VisualEditor editing system was launched, forming the first stage of an effort to allow articles to be edited with a word processor-like interface instead of using wiki markup.[111] An editor specifically designed for smartphones and other mobile devices was also launched.[112]
+
+2014
+Video review of Wikipedia content in 2014, encouraging viewers to edit Wikipedia
+In February 2014, a project to make a print edition of the English Wikipedia, consisting of 1,000 volumes and over 1,100,000 pages, was launched by German Wikipedia contributors.[7] The project sought funding through Indiegogo, and was intended to honor the contributions of Wikipedia's editors.[113] On 22 October 2014, the first monument to Wikipedia was unveiled in the Polish town of Slubice.[114]
+
+On 8 June 15 June, and 16 July 2014, the Waray Wikipedia, the Vietnamese Wikipedia and the Cebuano Wikipedia each exceeded the one million article mark. They were the tenth, eleventh and twelfth Wikipedias to reach that milestone. Despite having very few active users, the Waray and Cebuano Wikipedias had a high number of automatically generated articles created by bots.
+
+2015
+Video marking English Wikipedia's milestone of five million articles on 1 November 2015
+In mid-2015, Wikipedia was the world's seventh-most-popular website according to Alexa Internet,[115] down one place from the position it held in November 2012. At the start of 2015, Wikipedia remained the largest general-knowledge encyclopedia online, with a combined total of over 36 million mainspace articles across all 291 language editions.[50] On average, Wikipedia receives a total of 10 billion global pageviews from around 495 million unique visitors every month,[7][116] including 85 million visitors from the United States alone,[9] where it is the sixth-most-popular site.[115]
+
+Artist Michael Mandiberg talks about Print Wikipedia
+Print Wikipedia was an art project by Michael Mandiberg that created the ability to print 7473 volumes of Wikipedia as it existed on 7 April 2015. Each volume has 700 pages and only 110 were printed by the artist.[117]
+
+On 1 November 2015, the English Wikipedia reached 5,000,000 articles with the creation of an article on Persoonia terminalis, a type of shrub.
+
+2016
+On 19 January 2016, the Japanese Wikipedia exceeded the one million article mark, becoming the thirteenth Wikipedia to reach that milestone. The millionth article was 波号第二百二十四潜水艦 (a World War II submarine of the Imperial Japanese Navy).
+
+In mid-2016, Wikipedia was once again the world's sixth-most-popular website according to Alexa Internet,[118] up one place from the position it held in the previous year.
+
+In October 2016, the mobile version of Wikipedia got a new look.
+
+2017
+In mid-2017, Wikipedia was listed as the world's fifth-most-popular website according to Alexa Internet,[119] rising one place from the position it held in the previous year. Wikipedia Zero was made available in Iraq and Afghanistan.
+
+On 29 April 2017, online access to Wikipedia was blocked across all language editions in Turkey by the Turkish authorities. This block lasted until 15 January 2020, as the court of Turkey ruled that the block violated human rights. The encrypted Japanese Wikipedia has been blocked in China since 28 December 2017.[120]
+
+2018
+During 2018, Wikipedia retained its listing as the world's fifth-most-popular website according to Alexa Internet.[121] One notable development was the use of Artificial Intelligence to create draft articles on overlooked topics.[122]
+
+On 13 April 2018, the number of Chinese Wikipedia articles exceeded 1 million, becoming the fourteenth Wikipedia to reach that milestone. The Chinese Wikipedia has been blocked in Mainland China since May 2015.[123] Later in the year, on 26 June, the Portuguese Wikipedia exceeded the one million article mark, becoming the fifteenth Wikipedia to reach that milestone. The millionth article was Perdão de Richard Nixon (the Pardon of Richard Nixon).
+
+2019
+In August 2019, according to Alexa.com, Wikipedia fell from fifth-placed to seventh-placed website in the world for global internet engagement.[124]
+
+On 23 April 2019, Chinese authorities expanded the block of Wikipedia to versions in all languages.[125][126] The timing of the block coincided with the 30th anniversary of the 1989 Tiananmen Square protests and massacre and the 100th anniversary of the May Fourth Movement, resulting in stricter internet censorship in China.[127]
+
+Third decade: 2020–present
+2020
+See also: Wikipedia coverage of the COVID-19 pandemic
+On 23 January 2020, the six millionth article, the biography of Maria Elise Turner Lauder, was added to the English Wikipedia. Despite this growth in articles, Wikipedia's global internet engagement, as measured by Alexa, continued to decline. By February 2020, Wikipedia fell to the eleventh-placed website in the world for global internet engagement.[124] Both Wikipedia's coverage of the COVID-19 pandemic crisis and the supporting edits, discussions, and even deletions were thought to be a useful resource for future historians seeking to understand the period in detail.[128] The World Health Organization collaborated with Wikipedia as a key resource for the dissemination of COVID-19-related information as to help combat the spread of misinformation.[129][130]
+
+2021
+In January 2021, Wikipedia's 20th anniversary was noted in the media.[131][132][133][134]
+
+On 13 January 2021, the English Wikipedia reached one billion edits, where the billionth edit was made by Steven Pruitt.[135]
+
+MIT Press published an open access book of essays Wikipedia @ 20: Stories of an Unfinished Revolution, edited by Joseph Reagle and Jackie Koerner with contributions from prominent Wikipedians, Wikimedians, researchers, journalists, librarians and other experts reflecting on particular histories and themes.[136]
+
+By November 2021, Wikipedia had fallen to the thirteenth-placed website in the world for global internet engagement.[124]
+
+2022
+On 6 December 2022, Wikipedian Richard Knipel created the article Artwork title, whose first revision was a draft generated by ChatGPT that Knipel had made minor edits to more closely conform with Wikipedia standards. Knipel stated on a talk page that he believed this was the first time anyone had used ChatGPT to compose a Wikipedia article. The posting of this article was criticized by other editors and sparked controversy within the Wikipedia community, leading to an extensive debate about whether ChatGPT and similar models should be used in writing content for Wikipedia and, if so, to what extent.[137]
+
+2023
+In January 2023, the default Wikipedia desktop interface was changed for the first time since 2010, to Vector 2022.[138]
