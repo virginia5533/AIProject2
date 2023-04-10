@@ -11,8 +11,6 @@ import java.io.IOException;
 public class TextFilter {
 
 
-
-
 public static void main(String[] args) throws IOException{
 
     File wikiFolder = new File("wikiFiles");
@@ -32,8 +30,8 @@ public static void main(String[] args) throws IOException{
 
             while((line = iStream.readLine()) != null){
 
-                //removes special characters and punctuation
-                line = line.replaceAll("[-+\"'.,<>?;:|=~`/!@#$%^&*()�_0123456789\\[\\]\\\\]", " ");
+                //removes special characters and punctuation (having trouble getting rid of the �)
+                line = line.replaceAll("[-+\"'.,<>?;:|=~`/!@#$%^&*()�������_0123456789\\[\\]\\\\]", " ");
                 line = line.toLowerCase();
                 //System.out.println(line);
                 oStream.write(line);
