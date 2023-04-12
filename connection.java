@@ -1,7 +1,7 @@
 public class connection {
 
     String wordA;
-    String wordB;
+    word wordB;
     int weight;
 
 
@@ -12,11 +12,11 @@ public class connection {
     String getWord(){
         return wordA;
     }
-    void setWordB(String initwordB){
+    void setWordB(word initwordB){
         wordB = initwordB;
     }
     
-    String getWordB(){
+    word getWordB(){
         return wordB;
     }
 

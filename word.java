@@ -14,7 +14,7 @@ String getWord(){
     return word;
 }
 
-connection createConnection(String wordB){
+connection createConnection(word wordB){
     connection newConnection = new connection();
     newConnection.setWordA(getWord());
     newConnection.setWordB(wordB);
@@ -26,18 +26,20 @@ connection createConnection(String wordB){
 
 }
 
-connection getConnection(String wordB){
+connection checkConnection(String wordB){
 
     connection tempConnection = new connection();
+    word newWord = new word();
 
     for(int i = 0; i < connections.size(); i++){
 
-        if(connections.get(i).getWordB() == wordB){
+        if(connections.get(i).getWordB().getWord() == wordB){
             tempConnection = connections.get(i);
             tempConnection.increaseWeight();
         }
         else{
-            tempConnection = createConnection(wordB);
+            newWord.setWord(wordB);
+            tempConnection = createConnection(newWord);
         }
 
     }
@@ -45,4 +47,14 @@ connection getConnection(String wordB){
     return tempConnection;
 }
 
+
+
+void printConnections(){
+
+    for(int i = 0; i < connections.size(); i++){
+
+        System.out.println(connections.get(i).getWeight() + " " + connections.get(i).getWordB().getWord());
+    }
+    
+}
 }
