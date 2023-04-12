@@ -14,11 +14,15 @@ String getWord(){
     return word;
 }
 
+Vector<connection> getConnections() {
+    return connections;
+}
+
 connection createConnection(word wordB){
     connection newConnection = new connection();
     newConnection.setWordA(getWord());
     newConnection.setWordB(wordB);
-    newConnection.increaseWeight();
+    newConnection.setWeight(1);
 
     connections.add(newConnection);
 
@@ -53,7 +57,7 @@ void printConnections(){
 
     for(int i = 0; i < connections.size(); i++){
 
-        System.out.println(connections.get(i).getWeight() + " " + connections.get(i).getWordB().getWord());
+        System.out.println("weight: " + connections.get(i).getWeight() + " next word: " + connections.get(i).getWordB().getWord());
     }
     
 }

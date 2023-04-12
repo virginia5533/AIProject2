@@ -24,6 +24,10 @@ public class connection {
         weight++;
     }
 
+    void setWeight(int initweight){
+        weight = initweight;
+    }
+
     int getWeight(){
        return weight;
     }
