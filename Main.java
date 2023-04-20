@@ -11,8 +11,7 @@ public class Main {
 
 public static void main(String[] args) throws IOException{
 
-    //MarkovChain markovChain = new MarkovChain();
-    //markovChain.createChain();
+    
     new GUI();
 }
 

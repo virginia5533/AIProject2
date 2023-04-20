@@ -138,7 +138,7 @@ public class MarkovChain {
     
             }
             System.out.println("input not found in words");
-            return "bob";
+            return "and";
         }
 
 
