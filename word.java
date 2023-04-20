@@ -69,4 +69,23 @@ void printConnections(){
     }
     
 }
+
+
+connection findMaxConnection() {
+
+    connection maxConnection = new connection();
+    int max = -99999;
+
+    for(int i = 0; i < connections.size(); i++){
+
+        if(connections.get(i).getWeight() > max){
+            max = connections.get(i).getWeight();
+            maxConnection = connections.get(i);
+        }
+        
+    }
+
+
+    return maxConnection;
+}
 }

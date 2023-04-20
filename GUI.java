@@ -1,4 +1,8 @@
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+
 import javax.swing.BorderFactory;
 
 import javax.swing.JFrame;
@@ -18,7 +22,11 @@ public class GUI {
     * @return void
     */
 
-    public GUI(){
+    String userInput;
+
+    
+
+    public GUI() throws IOException{
 
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
@@ -43,10 +51,46 @@ public class GUI {
         frame.setVisible(true);
         
 
+        
+
+        generate.addActionListener((ActionListener) new ActionListener() {
+            public void actionPerformed(ActionEvent e){
+                String userInput;
+                userInput = sentenceTextBox.getText();
+
+                MarkovChain markovChain = new MarkovChain();
+                try {
+                    markovChain = markovChain.createChain();
+                } catch (IOException e1) {
+                    
+                    e1.printStackTrace();
+                }
+
+                System.out.println("Input: " + userInput);
+                String inputArr[] = userInput.split(" ");
+                String wordToSuggest = inputArr[inputArr.length-1];
+
+                System.out.println("Searching for: " + wordToSuggest);
+
+                markovChain.printChain(markovChain.getMCWords());
+
+                String generatedWord = markovChain.getGeneratedWord(markovChain.getMCWords(), wordToSuggest);
+
+                   sentenceTextBox.setText(sentenceTextBox.getText() + " " + generatedWord);
+    
+
+            }
+
+        } );
+
+        
+
+        
+
     }
 
     public static void main(String[] args){
-        new GUI();
+      //  new GUI();
     }
     
 }

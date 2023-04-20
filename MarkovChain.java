@@ -12,7 +12,11 @@ public class MarkovChain {
         //printChain(words);
     }
 
-    public static void main(String[] args) throws IOException{
+    Vector<word> getMCWords() {
+        return words;
+    }
+
+    MarkovChain createChain() throws IOException{
 
 
         File file = new File("DataTxt.txt");
@@ -87,9 +91,10 @@ public class MarkovChain {
             //System.out.println("Words: " + markovChain.words);
             printChain(markovChain.words);
 
+            return markovChain;
         }
 
-     static void printChain(Vector<word> words){
+     void printChain(Vector<word> words){
 
         for(int i = 0; i < words.size(); i++){
 
@@ -116,9 +121,28 @@ public class MarkovChain {
         }
 
     
+        String getGeneratedWord(Vector<word> markovChainWords, String input){
+
+            for(int i = 0; i < markovChainWords.size(); i++){
+
+                if(markovChainWords.get(i).getWord().equals(input)){
+                    //System.out.println(markovChainWords.get(i).getWord() + " = " + input);
+
+                    word foundWord = markovChainWords.get(i);
+                    connection maxConnection = foundWord.findMaxConnection();
+                    String generatedWord = maxConnection.getWordB();
+
+                    return generatedWord;
+                    
+                }
+    
+            }
+            System.out.println("input not found in words");
+            return "bob";
+        }
 
 
-    static int getWord(Vector<word> markovChainWords, String input){
+     int getWord(Vector<word> markovChainWords, String input){
 
         
 
