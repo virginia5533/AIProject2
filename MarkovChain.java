@@ -7,15 +7,15 @@ public class MarkovChain {
      Vector<word> words = new Vector<word>();
 
      void addWord(word newWord){
-        System.out.println("Added word " + newWord.getWord());
+        //System.out.println("Added word " + newWord.getWord());
         words.add(newWord);
-        printChain(words);
+        //printChain(words);
     }
 
     public static void main(String[] args) throws IOException{
 
 
-        File file = new File("testWord.txt");
+        File file = new File("DataTxt.txt");
         Scanner iStream = new Scanner(file);
 
         MarkovChain markovChain = new MarkovChain();
@@ -24,26 +24,26 @@ public class MarkovChain {
         word FirstWordObj = new word();
 
         String prevWord = iStream.next();
-        System.out.println("prev: " + prevWord + " ");
+        //System.out.println("prev: " + prevWord + " ");
         FirstWordObj.setWord(prevWord);
         markovChain.addWord(FirstWordObj);
 
             while(iStream.hasNext()){
 
                 String newWord = iStream.next();
-                System.out.println("new: " + newWord);
-                int i = 0;
+                //System.out.println("new: " + newWord);
+                //int i = 0;
 
                //search for existing words 
 
                     
-
-                    if(getWord(markovChain, newWord)){
-                        System.out.println("word already exists "  + newWord + " " + prevWord);
-                        markovChain.words.get(i).checkConnection(prevWord, newWord);
-                        printChain(markovChain.words);
-                        System.out.println();
-                        break;
+                int index = getWord(markovChain.words, newWord);
+                    if(index >= 0){
+                        //System.out.println("word already exists "  + newWord);
+                        markovChain.words.get(getWord(markovChain.words, prevWord)).checkConnection(newWord);
+                        //printChain(markovChain.words);
+                        //System.out.println();
+                        
                     }
         
 
@@ -51,28 +51,40 @@ public class MarkovChain {
                 // make search words functions if no words already {
 
                 word newWordObj = new word();
-            
+
+                //ensures every word has at least one recommendation
+                connection initconnection = new connection();
+                initconnection.setWordA(newWord);
+                initconnection.setWordB("and");
+                initconnection.setWeight(0);
 
                 newWordObj.setWord(newWord);
-                newWordObj.createConnection(prevWord, newWord);
+                newWordObj.getConnections().add(initconnection);
+                //newWordObj.createConnection(prevWord, newWord);
+
+                //gets prevWord and checks if newWord has followed it before
+                markovChain.words.get(getWord(markovChain.words, prevWord)).checkConnection(newWord);
 
                 markovChain.addWord(newWordObj);
-                i++;
+                //i++;
             
-                prevWord = newWord;
-                System.out.println("prev: " + prevWord + "\n");
+                
                 //////////////////////////////////////////////////////
 
                 // else check connection
                 }
+
+                prevWord = newWord;
+                
+                
             }
             //}
             if(iStream != null){
                 iStream.close();
-                System.out.println("Closed");
+                //System.out.println("Closed");
             }
 
-            System.out.println("Words: " + markovChain.words);
+            //System.out.println("Words: " + markovChain.words);
             printChain(markovChain.words);
 
         }
@@ -82,15 +94,17 @@ public class MarkovChain {
         for(int i = 0; i < words.size(); i++){
 
             word currentWord = words.get(i);
-            System.out.print(i + ". " + currentWord.getWord() + " ");
-            System.out.println();
+            //System.out.print(i + ". " + currentWord.getWord() + " ");
+            //System.out.println();
             //currentWord.printConnections();
 
             Vector<connection> currentWordConnections = currentWord.getConnections();
 
             for(int c = 0; c < currentWordConnections.size(); c++){
 
+                if(currentWordConnections.get(c).weight >= 5){
                 System.out.println("weight: " + currentWordConnections.get(c).getWeight() + " connection: " + currentWordConnections.get(c).getWord() + ' ' + currentWordConnections.get(c).getWordB());
+                }
             }
     
 }
@@ -104,20 +118,22 @@ public class MarkovChain {
     
 
 
-    static Boolean getWord(MarkovChain markovChain, String input){
+    static int getWord(Vector<word> markovChainWords, String input){
 
         
 
-        for(int i = 0; i < markovChain.words.size(); i++){
+        for(int i = 0; i < markovChainWords.size(); i++){
 
 
-            if(markovChain.words.get(i).getWord() == input){
-                return true;
+            if(markovChainWords.get(i).getWord().equals(input)){
+                //System.out.println(markovChainWords.get(i).getWord() + " = " + input);
+                return i;
+                
             }
 
         }
-        
-        return false;
+        //System.out.println("No Match");
+        return -1;
     }
 }
 

@@ -2,7 +2,7 @@ public class connection {
 
     String wordA;
     String wordB;
-    int weight;
+    int weight = 0;
 
 
     void setWordA(String initwordA){
@@ -21,7 +21,7 @@ public class connection {
     }
 
     void increaseWeight(){
-        weight++;
+        setWeight(getWeight() + 1);
     }
 
     void setWeight(int initweight){

@@ -18,36 +18,43 @@ Vector<connection> getConnections() {
     return connections;
 }
 
-connection createConnection(String prev, String current){
+connection createConnection(String wordB){
     connection newConnection = new connection();
-    newConnection.setWordA(prev);
-    newConnection.setWordB(current);
-    newConnection.setWeight(1);
+    newConnection.setWordA(getWord());
+    newConnection.setWordB(wordB);
+    newConnection.increaseWeight();
+    
 
     connections.add(newConnection);
-    System.out.println("Connection created from " + getWord() + " to " + newConnection.getWordB());
+    //System.out.println("Connection created from " + getWord() + " to " + newConnection.getWordB());
 
     return newConnection;
 
 }
 
-connection checkConnection(String prev, String current){
+connection checkConnection(String wordB){
 
-    connection tempConnection = new connection();
+    connection tempConnection = null;
+
+    
 
 
     for(int i = 0; i < connections.size(); i++){
 
-        if(connections.get(i).getWord() == prev){
+
+        //System.out.println("WordA: " + connections.get(i).getWord() + " WordB: " + connections.get(i).getWordB());
+
+        if((connections.get(i).getWord().equals(getWord())) && (connections.get(i).getWordB().equals(wordB))){
             tempConnection = connections.get(i);
             tempConnection.increaseWeight();
-            System.out.println("increase weight");
+            //System.out.println("increase weight");
         }
-        else{
-            tempConnection = createConnection(prev, current);
+    }
+        if(tempConnection == null){
+            tempConnection = createConnection(wordB);
         }
 
-    }
+    
 
     return tempConnection;
 }
