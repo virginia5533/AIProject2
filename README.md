@@ -11,7 +11,7 @@ RUNNING THE PROGRAM
 1. Enter 'java Main' to run the program.
 2. A JFrame will appear with a textbox and a JButton that says Generate.
 3. Enter a few words in the textbox.
-4. Click "Generate" to have a new word suggested. (It can take a few seconds)
+4. Click "Generate" to have a new word suggested. (It can take several seconds)
 5. Feel free to click Generate as many times as you like and see what words it suggests.
 6. To close the program, click the red button with the 'X' in the top right-hand corner.
 
