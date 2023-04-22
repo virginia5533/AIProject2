@@ -19,7 +19,7 @@ public class MarkovChain {
     MarkovChain createChain() throws IOException{
 
 
-        File file = new File("testWord.txt");
+        File file = new File("DataTxt.txt");
         Scanner iStream = new Scanner(file);
 
         MarkovChain markovChain = new MarkovChain();

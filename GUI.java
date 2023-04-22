@@ -72,7 +72,9 @@ public class GUI {
 
                 System.out.println("Searching for: " + wordToSuggest);
 
-                markovChain.printChain(markovChain.getMCWords());
+                //markovChain.printChain(markovChain.getMCWords());
+
+                wordToSuggest = wordToSuggest.toLowerCase();
 
                 String generatedWord = markovChain.getGeneratedWord(markovChain.getMCWords(), wordToSuggest);
 
