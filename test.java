@@ -8,23 +8,63 @@ public class test {
     int success = 0;
     double fraction;
 
+    /**
+    * Mutates sentenceNum
+    *
+    * @param int initSentenceNum
+    *
+    * @return none
+    */
     void setSentenceNum(int initSentenceNum) {
         sentenceNum = initSentenceNum;
     }
 
+    /**
+    * Accesses sentenceNum
+    *
+    * @param none
+    *
+    * @return int sentenceNum
+    */
     int getSentenceNum() {
         return sentenceNum;
     }
 
+    /**
+    * Mutates success
+    *
+    * @param int initSuccess
+    *
+    * @return none
+    */
     void setSuccess(int initSuccess) {
         success = initSuccess;
     }
 
+    /**
+    * Accesses Success
+    *
+    * @param none
+    *
+    * @return int success
+    */
     int getSuccess() {
         return success;
     }
 
+/**
+    * Creates the Markov Chain and reads in each sentence from the testWord.txt file,
+      it compares the third word written in the sentence to the recommendation it would have given based
+      off of the second word in the sentence.
 
+      If the words are equal it tallies success.
+      It returns accuracy which is the percentage value of successful sentences,
+      calculated as (success/numberOfSentences) times 100.
+    *
+    * @param none
+    *
+    * @return double (fraction*100)
+    */
     public double testRun() throws IOException {
 
     String testInput;
@@ -92,6 +132,14 @@ public class test {
 
 }
 
+/**
+    * Calls testRun() however many times the value numberOfRuns is,
+      it then averages the accuracies from the testRun() calls and prints an overall average.
+    *
+    * @param none
+    *
+    * @return void
+    */
 public test() throws IOException {
 
     double accuracySum = 0.0;

@@ -6,19 +6,45 @@ public class MarkovChain {
 
      Vector<word> words = new Vector<word>();
 
+    /**
+    * Adds new word object Vector<word> words
+    *
+    * @param word newWord
+    *
+    * @return none
+    */
      void addWord(word newWord){
         //System.out.println("Added word " + newWord.getWord());
         words.add(newWord);
         //printChain(words);
     }
 
+    /**
+    * Accesses Vector<word> words
+    *
+    * @param void
+    *
+    * @return Vector<word> words
+    */
     Vector<word> getMCWords() {
         return words;
     }
 
+    /**
+    * Creates the Markov Chain by reading in each word from DataTxt.txt.
+      When the word is read, it makes a connection to "and" to ensure a response.
+      If there is a previous word, it creates a connection for that previous word that connects it to the word that was read.
+      If the word read already has a connection to the previous word, that connection's weight is increased.
+    *
+    * @param word newWord
+    *
+    * @return none
+    */
+
     MarkovChain createChain() throws IOException{
 
 
+        //reads in DataTxt.txt
         File file = new File("DataTxt.txt");
         Scanner iStream = new Scanner(file);
 
@@ -64,25 +90,21 @@ public class MarkovChain {
 
                 newWordObj.setWord(newWord);
                 newWordObj.getConnections().add(initconnection);
-                //newWordObj.createConnection(prevWord, newWord);
+               
 
                 //gets prevWord and checks if newWord has followed it before
                 markovChain.words.get(getWord(markovChain.words, prevWord)).checkConnection(newWord);
 
                 markovChain.addWord(newWordObj);
-                //i++;
-            
                 
-                //////////////////////////////////////////////////////
-
-                // else check connection
                 }
 
                 prevWord = newWord;
                 
                 
-            }
-            //}
+            }//end while loop
+
+            //Close iStream
             if(iStream != null){
                 iStream.close();
                 //System.out.println("Closed");
@@ -94,6 +116,13 @@ public class MarkovChain {
             return markovChain;
         }
 
+    /**
+    * Prints the words in the Markov chain and their respective connections if the weight is greater than or equal to 5.
+    *
+    * @param word newWord
+    *
+    * @return none
+    */
      void printChain(Vector<word> words){
 
         for(int i = 0; i < words.size(); i++){
@@ -108,19 +137,26 @@ public class MarkovChain {
             for(int c = 0; c < currentWordConnections.size(); c++){
 
                 if(currentWordConnections.get(c).weight >= 5){
-                System.out.println("weight: " + currentWordConnections.get(c).getWeight() + " connection: " + currentWordConnections.get(c).getWord() + ' ' + currentWordConnections.get(c).getWordB());
+                //System.out.println("weight: " + currentWordConnections.get(c).getWeight() + " connection: " + currentWordConnections.get(c).getWord() + ' ' + currentWordConnections.get(c).getWordB());
                 }
             }
     
-}
+        }
             
 
             System.out.println();
 
 
-        }
+    }
 
-    
+    /**
+    * Returns the suggested word after calling the word object matching input.
+    *
+    * @param Vector<word> markovChainWords
+    * @param String input
+    *
+    * @return String generatedWord or "and"
+    */
         String getGeneratedWord(Vector<word> markovChainWords, String input){
 
             for(int i = 0; i < markovChainWords.size(); i++){
@@ -141,7 +177,15 @@ public class MarkovChain {
             return "and";
         }
 
-
+    /**
+    * Gets the index of a word object in Vector<word> words based off of input.
+    * If it returns -1, there is no word in words that matches the input.
+    *
+    * @param Vector<word> markovChainWords
+    * @param String input
+    *
+    * @return int i or '-1'
+    */
      int getWord(Vector<word> markovChainWords, String input){
 
         

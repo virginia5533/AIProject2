@@ -15,7 +15,8 @@ import javax.swing.JButton;
 public class GUI {
 
     /**
-    * Creates JFrame to recieve user input.
+    * Creates JFrame to recieve user input, when the JButton is clicked,
+    it then lowercases the user input and searches the Markov Chain for the suggested word.
     *
     * @param none
     *
@@ -91,8 +92,5 @@ public class GUI {
 
     }
 
-    public static void main(String[] args){
-      //  new GUI();
-    }
     
 }

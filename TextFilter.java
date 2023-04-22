@@ -11,6 +11,15 @@ import java.io.IOException;
 public class TextFilter {
 
 
+    /**
+    * Reads in the files in the wikiFiles folder, filters out special 
+    characters and punctuation, lowercases the words, 
+    then writes all output to one DataTxt.txt file.
+    *
+    * @param String[] args
+    *
+    * @return none
+    */
 public static void main(String[] args) throws IOException{
 
     File wikiFolder = new File("wikiFiles");
