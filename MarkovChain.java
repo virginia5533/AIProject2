@@ -36,9 +36,9 @@ public class MarkovChain {
       If there is a previous word, it creates a connection for that previous word that connects it to the word that was read.
       If the word read already has a connection to the previous word, that connection's weight is increased.
     *
-    * @param word newWord
+    * @param none 
     *
-    * @return none
+    * @return MarkovChain markovChain
     */
 
     MarkovChain createChain() throws IOException{
@@ -65,8 +65,7 @@ public class MarkovChain {
                 //int i = 0;
 
                //search for existing words 
-
-                    
+ 
                 int index = getWord(markovChain.words, newWord);
                     if(index >= 0){
                         //System.out.println("word already exists "  + newWord);
@@ -78,24 +77,24 @@ public class MarkovChain {
         
 
                 else {
-                // make search words functions if no words already {
+                    // make search words functions if no words already {
 
-                word newWordObj = new word();
+                    word newWordObj = new word();
 
-                //ensures every word has at least one recommendation
-                connection initconnection = new connection();
-                initconnection.setWordA(newWord);
-                initconnection.setWordB("and");
-                initconnection.setWeight(0);
+                    //ensures every word has at least one recommendation
+                    connection initconnection = new connection();
+                    initconnection.setWordA(newWord);
+                    initconnection.setWordB("and");
+                    initconnection.setWeight(0);
 
-                newWordObj.setWord(newWord);
-                newWordObj.getConnections().add(initconnection);
+                    newWordObj.setWord(newWord);
+                    newWordObj.getConnections().add(initconnection);
                
 
-                //gets prevWord and checks if newWord has followed it before
-                markovChain.words.get(getWord(markovChain.words, prevWord)).checkConnection(newWord);
+                    //gets prevWord and checks if newWord has followed it before
+                    markovChain.words.get(getWord(markovChain.words, prevWord)).checkConnection(newWord);
 
-                markovChain.addWord(newWordObj);
+                    markovChain.addWord(newWordObj);
                 
                 }
 
