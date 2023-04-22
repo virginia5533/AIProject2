@@ -74,6 +74,12 @@ void printConnections(){
 connection findMaxConnection() {
 
     connection maxConnection = new connection();
+    connection chosen = new connection();
+    chosen.setWordA(word);
+    chosen.setWeight(1);
+    chosen.setWordB("and");
+    Vector<connection> maxConnections = new Vector<connection>();
+    Vector<connection> top5Connections = new Vector<connection>();
     int max = -99999;
 
     for(int i = 0; i < connections.size(); i++){
@@ -81,11 +87,38 @@ connection findMaxConnection() {
         if(connections.get(i).getWeight() > max){
             max = connections.get(i).getWeight();
             maxConnection = connections.get(i);
+            maxConnections.add(maxConnection);
         }
         
     }
+    int random = 0;
+
+    if(maxConnections.size() >= 2){
+        top5Connections.add(maxConnections.get(maxConnections.size()-1));
+        top5Connections.add(maxConnections.get(maxConnections.size()-2));
+        random = 0 + (int)(Math.random() * ((1 - 0) + 1));
+        chosen = top5Connections.get(random);
+    }
+    if(maxConnections.size() >= 3){
+        top5Connections.add(maxConnections.get(maxConnections.size()-3));
+        random = 0 + (int)(Math.random() * ((2 - 0) + 1));
+        chosen = top5Connections.get(random);
+    }
+    else if (maxConnection != null){
+        top5Connections.add(maxConnection);
+    }
+    else {
+        return chosen;
+    }
+    
+
+    System.out.println(top5Connections.toString());
+
+    
+
+    
 
 
-    return maxConnection;
+    return chosen;
 }
 }
